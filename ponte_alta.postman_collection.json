@@ -1,0 +1,68 @@
+{
+	"info": {
+		"_postman_id": "60a027b1-9e87-4c5f-b9f0-1c8782eb641f",
+		"name": "ponte_alta",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26212230"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "nome_paciente",
+							"value": "paulinho",
+							"type": "text"
+						},
+						{
+							"key": "telefone_paciente",
+							"value": "1190909080",
+							"type": "text"
+						},
+						{
+							"key": "celular_paciente",
+							"value": "11320202020",
+							"type": "text"
+						},
+						{
+							"key": "email_paciente",
+							"value": "ppppphiqshbx",
+							"type": "text"
+						},
+						{
+							"key": "foto",
+							"type": "file",
+							"src": "/C:/Users/zaidz/Downloads/unnamed.png"
+						},
+						{
+							"key": "nome_responsevel",
+							"value": "papi",
+							"type": "text"
+						},
+						{
+							"key": "telefone_responsavel",
+							"value": "5522212336536",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{url_base}}/paciente/cadastro",
+					"host": [
+						"{{url_base}}"
+					],
+					"path": [
+						"paciente",
+						"cadastro"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
